@@ -1,0 +1,49 @@
+[
+  {
+    "id": 232,
+    "name": "Amina Rahman",
+    "department": "Computer Science",
+    "gpa": 3.85,
+    "createdAt": "2025-06-30 16:15:00"
+  },
+  {
+    "id": 1045,
+    "name": "Tanvir Hasan",
+    "department": "Electrical Engineering",
+    "gpa": 3.6,
+    "createdAt": "2025-06-30 16:20:00"
+  },
+  {
+    "id": 873,
+    "name": "Sumaiya Akter",
+    "department": "Business Administration",
+    "gpa": 3.92,
+    "createdAt": "2025-06-30 16:25:00"
+  },
+  {
+    "id": 391,
+    "name": "Jahidul Islam",
+    "department": "Mechanical Engineering",
+    "gpa": 3.45,
+    "createdAt": "2025-06-30 16:30:00"
+  },
+  {
+    "id": 1107,
+    "name": "Farzana Kabir",
+    "department": "Civil Engineering",
+    "gpa": 3.78,
+    "createdAt": "2025-06-30 16:35:00"
+  },
+  {
+    "id": 1085,
+    "name": "Sayedul Isam Sayed",
+    "department": "Computer Science",
+    "gpa": 3.98
+  },
+  {
+    "id": 1085,
+    "name": "Sayedul Isam Sayed",
+    "department": "Computer Science",
+    "gpa": 3.98
+  }
+]
