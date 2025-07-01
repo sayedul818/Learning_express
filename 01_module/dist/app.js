@@ -6,11 +6,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
+const itemRouting_1 = require("./routes/itemRouting");
 const app = (0, express_1.default)();
 const filePath = path_1.default.join(__dirname, "../db/index.json");
 app.use(express_1.default.json());
-const todosRouter = express_1.default.Router();
-app.use("/items", todosRouter);
+app.use("/items", itemRouting_1.todosRouter);
 // get all items from index.json db
 app.get('/items/list', (req, res) => {
     const data = fs_1.default.readFileSync(filePath, { encoding: "utf-8" });
@@ -35,7 +35,7 @@ app.get('/items/item/:name/:department', (req, res) => {
     res.json(data);
 });
 // using todosrouter to get item
-todosRouter.get("/list", (req, res) => {
+itemRouting_1.todosRouter.get("/list", (req, res) => {
     const data = fs_1.default.readFileSync(filePath, { encoding: "utf-8" });
     res.json({
         message: "from todos router",
